@@ -34,3 +34,28 @@ if (9 % 2 === 0 && 5 % 2 === 0) {
 } else {
     console.log('ostatak pri cjelobrojnom dijeljenju NIJE 0')
 }
+
+
+/// Parni brojevi
+
+var nj = 0;
+for (i = 0; i <=10; i++) {
+    if (i=== 0) {
+        continue;
+    }
+    if (i % 2 === 0) {
+        console.log('Broj ' + i + ' je paran');
+    }
+}
+
+/// Neparni brojevi
+
+var nj = 0;
+for (i = 0; i <=10; i++) {
+    if (i=== 0) {
+        continue;
+    }
+    if (i % 2 !== 0) {
+        console.log('Broj ' + i + ' je paran');
+    }
+}
