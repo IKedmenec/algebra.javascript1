@@ -1,5 +1,5 @@
 var x = "Lorem ipsum"
-    y = 2,
+    y = 2345,
     z = "2345",
     Q = false,
     w = null;
@@ -8,7 +8,7 @@ var x = "Lorem ipsum"
     var baaa = "b" + "a" + +"a" + "a";
 
     console.log(x);
-    
+
     console.log(baaa);
 
     console.log(typeof w);
