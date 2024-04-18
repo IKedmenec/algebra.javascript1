@@ -7,7 +7,8 @@ var x = "Lorem ipsum"
     x +='3' + 1;
     var baaa = "b" + "a" + +"a" + "a";
 
+    console.log(x);
+    
     console.log(baaa);
 
     console.log(typeof w);
-    
