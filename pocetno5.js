@@ -11,3 +11,8 @@ console.log(myString.replace('ipsum', 'novi moj string'));
 console.log(myString.replaceAll('ipsum', 'novi moj string'));
 console.log(myString.toUpperCase())
 
+console.log(myString.substring(12, myString.length));
+
+var myNiz = myString.split(' ')
+
+console.log('kraj');
