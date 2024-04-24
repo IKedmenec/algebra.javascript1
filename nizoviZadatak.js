@@ -104,3 +104,24 @@ for (var i = 0; i < elementi.length; i++) {
     }
 }
 console.log(ispisi);
+
+
+// Duljina imena
+
+var namesLong = ['Jane', 'John', 'Bob', , 'Mike', 'Leonardo'];
+var duljina = 0;
+var najduzeIme='';
+for (var ime of namesLong) {
+    //console.log('Evaluiram Ime:' + ime);
+    if (typeof ime !== 'string') {
+        continue;
+    }
+    var duljinaImena = ime.length;
+    if (duljinaImena > duljina) {
+        duljina = duljinaImena;
+        najduzeIme = ime;
+    }
+}
+
+console.log('Duljina: ' + duljina);
+console.log('Najduze ime je: ' + najduzeIme);
