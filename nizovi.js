@@ -34,10 +34,24 @@ console.log('suma=' + suma);
 var wierdbrojcaniNiz = [1, 2, 3, 4, 5 ,6 ,7];
 var sumaW = 0;
 for (var x=0; x < wierdBrojcaniNiz.length; x++) {
-    if (wierdbrojcaniNiz[x] == undefined) {
+    if (wierdbrojcaniNiz[x] === undefined) {
         continue;
     }
-    sumaW = suma + wierdbrojcaniNiz[x]; 
+    sumaW += wierdbrojcaniNiz[x]; 
 }
 
-console.log ('sumaW=' sumaW)
+console.log('sumaW=' + sumaW);
+
+// petlja u petlji //
+
+var matrix = [
+    [1, 2, 3],
+    ['John', 'Jane', 'Mike'],
+];
+
+for (var i = 0; i< matrix.length; i++) {
+    console.long(matrix).join();
+    for(var j = 0; j<matrix[i].length; j++){
+        console.log(matrix[i][j]);
+    }
+}
