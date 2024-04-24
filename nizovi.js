@@ -31,13 +31,13 @@ for (var x=0; x < brojcaniNiz.length; x++) {
 
 console.log('suma=' + suma);
 
-var wierdbrojcaniNiz = [1, 2, 3, 4, 5 ,6 ,7];
+var wierdBrojcaniNiz = [1, 2, 3, 4, 5 ,6 ,7];
 var sumaW = 0;
 for (var x=0; x < wierdBrojcaniNiz.length; x++) {
-    if (wierdbrojcaniNiz[x] === undefined) {
+    if (wierdBrojcaniNiz[x] === undefined) {
         continue;
     }
-    sumaW += wierdbrojcaniNiz[x]; 
+    sumaW += wierdBrojcaniNiz[x]; 
 }
 
 console.log('sumaW=' + sumaW);
@@ -49,9 +49,10 @@ var matrix = [
     ['John', 'Jane', 'Mike'],
 ];
 
-for (var i = 0; i< matrix.length; i++) {
-    console.long(matrix).join();
-    for(var j = 0; j<matrix[i].length; j++){
-        console.log(matrix[i][j]);
+for (var i = 0; i < matrix.length; i++) {
+    // console.long(matrix).join()); //
+    for (var j = 0; j < matrix[i].length; j++) {
+        console.log('matrix[' + i + '][' + j + '] = ' + matrix[i][j]);
+        // console.log(matrix[i][j]); //
     }
 }
