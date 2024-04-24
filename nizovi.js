@@ -20,7 +20,7 @@ while (i < prazanNiz.length) {
 }
 
 var brojcaniNiz = [1, 2, 3, 4, 5 ,6 ,7];
-// zbroji se clanove niza
+// zbroji sve clanove niza
 
 // var sume = brojcaniNiz[0] + brojcaniNiz[1] + brojcaniNiz[2] + brojcaniNiz[3]; // ... 
 
@@ -56,3 +56,14 @@ for (var i = 0; i < matrix.length; i++) {
         // console.log(matrix[i][j]); //
     }
 }
+
+
+//  //
+var myNames = ['Jane', 'John',, 'Mike'];
+var y=1
+for (var name1 of myNames) {
+    console.log(y + '. ' + name1);
+    y++;
+}
+
+
