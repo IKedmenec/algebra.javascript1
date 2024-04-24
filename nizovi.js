@@ -7,8 +7,37 @@ for (i = 0; i<niz.length; i++) {
     console.log('1. element na poziciji [' + i + '] =' + prazanNiz [i]);
 }
 
+console.log('1.1. element na poziciji [5] =' + prazanNiz [i]);
+
 var i = 0;
 do {
     console.log('2. element na poziciji [' + i + '] =' + prazanNiz [i]);
     i++;
 } while (i < prazanNiz.length);
+
+while (i < prazanNiz.length) {
+    console.log('3. element na poziciji [' + i + '] =' + prazanNiz [i]);
+}
+
+var brojcaniNiz = [1, 2, 3, 4, 5 ,6 ,7];
+// zbroji se clanove niza
+
+// var sume = brojcaniNiz[0] + brojcaniNiz[1] + brojcaniNiz[2] + brojcaniNiz[3]; // ... 
+
+var suma = 0;
+for (var x=0; x < brojcaniNiz.length; x++) {
+    suma = suma + brojcaniNiz[x]; 
+}
+
+console.log('suma=' + suma);
+
+var wierdbrojcaniNiz = [1, 2, 3, 4, 5 ,6 ,7];
+var sumaW = 0;
+for (var x=0; x < wierdBrojcaniNiz.length; x++) {
+    if (wierdbrojcaniNiz[x] == undefined) {
+        continue;
+    }
+    sumaW = suma + wierdbrojcaniNiz[x]; 
+}
+
+console.log ('sumaW=' sumaW)
